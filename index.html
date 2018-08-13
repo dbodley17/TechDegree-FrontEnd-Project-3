@@ -8,7 +8,6 @@
     <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
-    <div class="wrapper">
       <header class="main-header">
         <div class="container">
           <h1>the code review</h1>
@@ -20,7 +19,7 @@
             <h2>Signup for our newsletter</h2>
             <p>Get the latest news on how your code is doing right in your inbox</p>
         </div> <!-- Intro News DIV -->
-      
+
         <form action="index.html" method="post">
           <div  class="contact-info">
             <fieldset>
@@ -105,21 +104,23 @@
           <div class="newsletter">
             <fieldset>
               <legend>Newsletter</legend>
-              
+
                 <label>Select the newsletters you would like to receive</label>
-                
-                <input type="checkbox" id="html-sub" name="news_subscribtion"><label for="html-sub">HTML News</label>
-                <input type="checkbox" id="css-sub" name="news_subscription"><label for="css-sub">CSS News</label>
-                <input type="checkbox" id="js-sub" name="news_subscription"><label for="js-sub">Javascript News</label>
-                
+                <div class="checkboxes">
+                  <input type="checkbox" id="html-sub" name="news_subscribtion"><label for="html-sub">HTML News</label>
+                  <input type="checkbox" id="css-sub" name="news_subscription"><label for="css-sub">CSS News</label>
+                  <input type="checkbox" id="js-sub" name="news_subscription"><label for="js-sub">Javascript News</label>
+                </div> <!-- Checkboxes DIV -->
+
                 <label>Newsletter format</label>
-                
-                <input type="radio" id="html-format" name="news_format"><label for="html-format">HTML</label>
-                <input type="radio" id="plain-format" name="news_format"><label for="plain-format">Plain text</label>
+                <div class="radios">
+                  <input type="radio" id="html-format" name="news_format"><label for="html-format">HTML</label>
+                  <input type="radio" id="plain-format" name="news_format"><label for="plain-format">Plain text</label>
+                </div> <!-- Radios DIV -->
                 
                 <label>Other topics you'd like to hear about</label>
                 <textarea name="other_topics"></textarea>
-                
+
             </fieldset>
           </div> <!-- End of Newsletter DIV -->
           <input type="submit" id="signup" name="signup" value="Sign Up">
@@ -133,6 +134,5 @@
         </div> <!-- Main Footer Container DIV -->
       </footer>
 
-    </div> <!-- Wrapper DIV Ending -->
   </body>
 </html>

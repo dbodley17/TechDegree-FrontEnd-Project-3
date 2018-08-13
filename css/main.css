@@ -5,14 +5,9 @@
   box-sizing: border-box;
 }
 
-.wrapper {
-  margin: 0 auto;
-  width: 100%;
-  
-}
-
 h1 {
   text-transform: uppercase;
+  font-size: 20px;
 }
 
 .intro-news {
@@ -51,8 +46,9 @@ textarea {
 
 .main-header {
   background-color: darkgray;
-  margin-top: 0;
+  padding: 10px;
   text-align: center;
+  color: white;
 }
 
 .contact-info,
@@ -75,6 +71,15 @@ textarea {
 
 /* Layout Styles ====================================*/
 
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+input[type='checkbox'] {
+  display: inline-block;
+}
 
 
 
