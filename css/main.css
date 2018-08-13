@@ -5,8 +5,18 @@
   box-sizing: border-box;
 }
 
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  
+}
+
 h1 {
   text-transform: uppercase;
+}
+
+.intro-news {
+  text-align: center;
 }
 
 fieldset {
@@ -35,24 +45,15 @@ textarea {
   background-color: #e6e6e6;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* Element Styles ====================================*/
-
 .container {
   margin: 2em 1em;
 }
 
+.main-header {
+  background-color: darkgray;
+  margin-top: 0;
+  text-align: center;
+}
 
 .contact-info,
 .newsletter {
@@ -60,6 +61,21 @@ textarea {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Layout Styles ====================================*/
+
+
 
 
 
